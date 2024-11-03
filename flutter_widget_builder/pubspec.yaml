@@ -1,0 +1,23 @@
+name: flutter_widget_builder
+description: A powerful tool for building and previewing Flutter widgets in isolation.
+version: 1.0.0
+homepage: https://github.com/p4-k4/flutter_widget_builder
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  path_provider: ^2.0.15
+  flutter_pubsub: ^0.0.1
+  get_it: ^7.6.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
